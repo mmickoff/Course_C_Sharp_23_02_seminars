@@ -13,19 +13,11 @@ Console.Write($"a = {num1}; b = {num2} -> ");
 double max = 0;
 if (num1 == num2) Console.WriteLine("Числа равны. Начните заново и введите разные числа.");
 else if (num1 > num2) { max = num1; PrintResult(max); }
-else {max = num2;  PrintResult(max);}
+else { max = num2; PrintResult(max); }
 
 void PrintResult(double max1)
 {
     Console.WriteLine("max = " + max1);
 }
-
-
-
-
-// Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
-
-// 5 -> 2, 4
-// 8 -> 2, 4, 6, 8
 
 
