@@ -17,5 +17,5 @@ do
     if (n < number -1 /* && n % 2 == 0 */)
         Console.Write(", ");
     }
-    n++;
+    n+=2;
 }while (n <= number);
