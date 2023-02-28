@@ -8,7 +8,7 @@
 Console.WriteLine("Введите цифру, соответствующую дню недели");
 // int numberOfDay = int.Parse(Console.ReadLine()!);
 // int numOfWeekDay = numberOfDay;
-int numberOfDay = 0;
+int day = 0;
 
 int WeekDay(int numberOfDay){
 bool checkDay = false;
@@ -25,11 +25,7 @@ string FindDay(int numOfDay){
         case 6: return "Да";
         case 7: return "Да";
        default: return "Нет";
-        // case 3: return "Нет";
-        // case 4: return "Нет";
-        // case 5: return "Нет";
-        // case 6: return "Да";
     }
 }
-int weekDay = WeekDay(numberOfDay);
+int weekDay = WeekDay(day);
 Console.WriteLine($"{weekDay} -> {FindDay(weekDay)}");
