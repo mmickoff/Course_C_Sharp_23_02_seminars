@@ -9,7 +9,7 @@ void Div(int N)
             Console.WriteLine("Кратно");
         else
             Console.WriteLine("Не кратно ");
-    }
+    }    
 
 
 Div(N);

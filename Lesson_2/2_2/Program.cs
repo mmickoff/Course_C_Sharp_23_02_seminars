@@ -1,7 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-
-// 1. Напишите программу, которая выводит случайное число
+﻿// 1. Напишите программу, которая выводит случайное число
 //    из отрезка [10, 99] и показывает наибольшую цифру числа.
 Console.WriteLine("Введите число");
 
