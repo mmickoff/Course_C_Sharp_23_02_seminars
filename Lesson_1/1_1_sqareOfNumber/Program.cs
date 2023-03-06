@@ -10,9 +10,9 @@
 // а = -3 b = 9 -> нет
 
 Console.WriteLine("Необходимо ввести два числа. Введите первое число");
-double num1 = double.Parse(Console.ReadLine());
+double num1 = double.Parse(Console.ReadLine()!);
 Console.WriteLine("Введите вторвое число");
-double num2 = double.Parse(Console.ReadLine());
+double num2 = double.Parse(Console.ReadLine()!);
 double square = /* double.Parse( */Math.Pow(num2, 2)/* ) */;
 if (num1 == square) Console.WriteLine($"a = {num1}, b = {num2} -> да");
 else {Console.WriteLine($"a = {num1}, b = {num2} -> нет");}

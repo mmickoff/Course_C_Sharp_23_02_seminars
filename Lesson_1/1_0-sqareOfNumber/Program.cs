@@ -6,5 +6,5 @@
 // Например: 4-> 16 -3-> 9 -7-> 49
 
 Console.WriteLine("Введите число");
-double number = double.Parse(Console.ReadLine());
+double number = double.Parse(Console.ReadLine()!);
 Console.WriteLine(Math.Pow(number, 2));
