@@ -27,3 +27,6 @@ void CubeOfNumber(int n)
     }
 }
 
+double[] arr1 = new double[10];
+
+
