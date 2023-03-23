@@ -10,11 +10,9 @@ int.TryParse(Console.ReadLine(), out int number);
 
 int reversNum = ReversNumber(number);
 Ask(reversNum, number);
-string Ask(int a, int b)
-{
-    if (a == b) return "Да!";
-    return "Нет!";
-}
+
+Console.WriteLine(number + " -> " + Ask(reversNum, number));
+
 int ReversNumber(int num)
 {
     int result = 0;
@@ -25,5 +23,8 @@ int ReversNumber(int num)
     }
     return result;
 }
-
-Console.WriteLine(number + " -> " + Ask(reversNum, number));
+string Ask(int a, int b)
+{
+    if (a == b) return "Да!";
+    return "Нет!";
+}
