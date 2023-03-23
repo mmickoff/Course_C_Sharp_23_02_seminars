@@ -6,7 +6,7 @@ void massive(int mas){
     for (int i = 0; i < mas; i++)
     {
         numbers[i] = new Random().Next(2); // только 0 и 1, 2 не включается
-        Console.WriteLine(numbers[i]);
+        Console.Write(numbers[i] + " ");
     }
 }
 
