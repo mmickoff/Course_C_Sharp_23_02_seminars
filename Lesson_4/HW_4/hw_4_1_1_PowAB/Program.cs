@@ -9,7 +9,8 @@ int PowAB(int a, int b)
     int powAB = 1;
 for (int i = 1; i <= b; i++)
 {
-    powAB *= a;
+    if(b>0) powAB *= a;
+    
 }
 return powAB;
 }
