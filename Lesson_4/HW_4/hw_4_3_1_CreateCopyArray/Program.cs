@@ -18,7 +18,7 @@ void FillArray(int[] arr, int startArr, int endArr, int lenArr)
         arr[i] = new Random().Next(startArr, endArr);
     }
 }
-
+ 
 void PrintArray(int[] arr)
 {
     int count = arr.Length;
